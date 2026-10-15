@@ -1,0 +1,5 @@
+# Only explicitly reviewed public documents belong in this Git history.
+# Installers and firmware packages are distributed as reviewed release assets.
+*
+!.gitignore
+!README.md
