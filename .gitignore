@@ -3,3 +3,8 @@
 *
 !.gitignore
 !README.md
+!manual/
+!manual/README.md
+!manual/images/
+!manual/images/astrotaca-symbol.png
+!manual/images/connections.svg
