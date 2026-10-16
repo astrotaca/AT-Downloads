@@ -29,7 +29,8 @@ alone does not change the light. Choose **Light off** when finished.
 
 **In NINA:** go to **Equipment → Flat Panel**, select **AstroTaca Flat Panel
 (ASCOM)** and connect. Its settings gear lets you choose the USB port. Choose
-**Close**, wait for **Closed**, then enter your brightness and choose **Set**.
+**Close**, wait for **Closed**, then enter a low, nonzero brightness and choose
+**Set** to turn on the light at that level.
 Use NINA's light control to switch it off when finished.
 
 **Close first, then light on.** A light request never closes the cover for you.

@@ -79,8 +79,9 @@ accompany the release.
 2. Select **AstroTaca Flat Panel (ASCOM)**.
 3. Open the settings gear if you need to select the USB port. Save, then connect.
 4. Choose **Close** and wait until the cover reports **Closed**.
-5. Set a low brightness, apply it with **Set**, and use the light control as
-   needed. Check your camera's exposure result before increasing brightness.
+5. Enter a low, nonzero brightness and choose **Set**. In NINA 3.2, this turns
+   the light on at that level. Check your camera's exposure result before
+   increasing brightness.
 6. When finished, switch the light off. Choose **Open** when you need the
    telescope aperture clear.
 
