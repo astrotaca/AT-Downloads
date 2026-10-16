@@ -49,11 +49,13 @@ confirmed instructions before connecting or mounting a finished unit.
 Once a public release is available:
 
 1. Download the AstroTaca installer from [Releases](https://github.com/astrotaca/AT-Downloads/releases).
-2. Close NINA and any AstroTaca windows, then run Setup.
+2. Close NINA and any AstroTaca windows, then run Setup. Approve the Windows
+   administrator prompt, or ask the PC's administrator to install it.
 3. If prompted, choose **Install ASCOM Platform** and follow its installation
    window. AstroTaca Setup continues when ASCOM is ready.
 4. Open **AstroTaca Flat Panel** from the desktop or Start menu.
-5. On first launch, select the panel's **USB port** and choose **Save**.
+5. If asked, select the panel's **USB port** and choose **Save**. An existing
+   saved port is kept when reinstalling or updating.
 6. With the panel powered and its path clear, choose **Connect**.
 
 The software remembers your selected port. Windows names these ports COM1,
@@ -165,11 +167,14 @@ Use **Opening limit** when you want normal Open commands to stop sooner, for
 example to keep the cover clear of nearby equipment. Your full calibration
 stays saved separately.
 
+![Open stops at your shorter opening limit while the full Open position stays saved.](images/opening-limit.svg)
+
 1. Stop any sequence and wait for the cover to be stationary.
 2. Open **Opening limit**. Confirm the cover can remain safely supported at the
-   chosen position after the motor releases.
+   chosen position after the motor releases, then tick the support checkbox.
 3. Enter **degrees from Closed**, then choose **Save opening angle**. Alternatively,
-   with the cover supported and released, gently place it at the desired position
+   support the cover and choose **Halt / release** on Controls. Wait for it to
+   stop, gently place it at the desired position, then return to **Opening limit**
    and choose **Use current position**.
 4. Saving does not move it. Clear the path, then choose **Open** to test the limit.
    Confirm it clears the telescope aperture as well as nearby equipment.
@@ -196,6 +201,8 @@ the light off and does not move automatically when powered on.
 For brightness, **release the button** after about one second; do not keep
 holding while waiting for the light. The cover must be Closed and settled.
 A brightness press while open does not close it or turn on the light.
+After a part-way stop, the next quick tap opens the cover; it does not reverse
+back toward Closed.
 
 ### Set your usual brightness once
 
@@ -257,5 +264,6 @@ If the fault returns, stop and ask for help.
 For support, [open an issue](https://github.com/astrotaca/AT-Downloads/issues)
 with your product, software version, Windows version, exact error and what you
 were doing. Include a screenshot if helpful. Remove names, file paths and other
-personal information from screenshots or logs before sharing them. Enable trace
-logging only when troubleshooting requires it.
+personal information from screenshots or logs before sharing them. Enable
+**Save troubleshooting logs** in the driver's settings only when needed for
+troubleshooting.

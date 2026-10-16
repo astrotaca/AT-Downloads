@@ -1,0 +1,48 @@
+name: Software problem
+description: Report a problem installing or using AstroTaca software.
+title: "[Software]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the [user manual](https://github.com/astrotaca/AT-Downloads/blob/main/manual/README.md#troubleshooting) for setup help.
+        [Download availability and development status](https://github.com/astrotaca/AT-Downloads#downloads) are listed on the main page. If you are testing a pre-release build, include its exact version below.
+
+        **This report is public.** Remove names, personal file paths and other private information from text or screenshots. Do not share serial numbers or full logs; a short error message is usually enough to start.
+  - type: textarea
+    id: versions
+    attributes:
+      label: Which software are you using?
+      description: Include Windows, AstroTaca and the app you were using. Write "unknown" if you cannot find a version.
+      placeholder: |
+        Windows version:
+        AstroTaca version:
+        App and version (NINA, AstroTaca app, or another app):
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Tell us what you expected and what happened instead.
+      placeholder: "For example: I expected the app to connect, but it showed an error."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do just before it happened?
+      description: A few short steps help. If it happened only once, say so.
+      placeholder: |
+        1. Opened...
+        2. Clicked...
+        3. Saw...
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or screenshot (optional)
+      description: Paste the exact error text, or attach a screenshot after checking it for personal information. A full log is not needed.
+    validations:
+      required: false

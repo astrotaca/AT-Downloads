@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="204" viewBox="0 0 920 204" role="img" aria-labelledby="title desc">
+  <title id="title">A shorter opening keeps your full calibration</title>
+  <desc id="desc">Normal Open travels from Closed to the saved opening limit. The rest of the calibrated travel remains saved but is not used until you restore full opening. This shows travel order, not physical geometry or a recommended angle.</desc>
+  <rect width="920" height="204" rx="16" fill="#f5f7f9"/>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle" fill="#17232e">
+    <text x="110" y="52" font-size="21" font-weight="600">Closed</text>
+    <text x="480" y="52" font-size="21" font-weight="600">Your opening limit</text>
+    <text x="790" y="52" font-size="21" font-weight="600">Full Open</text>
+    <rect x="110" y="88" width="680" height="12" rx="6" fill="#d5dfe3"/>
+    <rect x="110" y="88" width="370" height="12" rx="6" fill="#006b68"/>
+    <rect x="104" y="78" width="12" height="32" rx="3" fill="#006b68"/>
+    <rect x="474" y="78" width="12" height="32" rx="3" fill="#006b68"/>
+    <rect x="784" y="78" width="12" height="32" rx="3" fill="#52616c"/>
+    <text x="290" y="140" font-size="18">Travel used by Open</text>
+    <text x="655" y="140" font-size="18">Full position stays saved</text>
+    <text x="460" y="184" font-size="14" fill="#52616c">Travel order only. This is not the physical shape or a recommended opening angle.</text>
+  </g>
+</svg>

@@ -3,13 +3,16 @@
 Software, setup help and the user manual for AstroTaca Flat Panel.
 
 **Pre-release: the panel and software are still in development. No public
-download is available yet.** Installers will appear here when ready.
+installer is available yet.** Installers will appear here when ready.
 
 ## User manual
 
-Start with the [Flat Panel user manual](manual/README.md). It covers installation,
-NINA, the standalone app, calibration, a shorter opening limit and button
-brightness presets.
+Start with the [one-page quick start](manual/QUICK-START.md), or open the
+[full user manual](manual/README.md) for NINA, calibration, a shorter opening
+limit, saved brightness presets and troubleshooting.
+
+For printing: [Quick start PDF](manual/AstroTaca-Flat-Panel-Quick-Start.pdf) ·
+[User manual PDF](manual/AstroTaca-Flat-Panel-Manual.pdf).
 
 The manual is a draft for the upcoming product. Mounting instructions, final
 power requirements and product photographs are still to be confirmed.
@@ -27,6 +30,6 @@ firmware update will have its own instructions and compatibility information.
 
 ## Support
 
-[Open an issue](https://github.com/astrotaca/AT-Downloads/issues) for software
-questions or bug reports. Include your AstroTaca product, software version,
-Windows version and what happened. Remove personal information before sharing logs.
+[Report a software problem](https://github.com/astrotaca/AT-Downloads/issues/new?template=software-problem.yml)
+using the short form, or [ask a question](https://github.com/astrotaca/AT-Downloads/issues/new).
+Reports are public: remove personal information from screenshots and error messages.
