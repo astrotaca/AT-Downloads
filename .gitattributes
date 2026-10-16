@@ -1,3 +1,4 @@
 # Preserve published documents and images byte-for-byte.
 *.pdf binary
 *.png binary
+*.jpg binary

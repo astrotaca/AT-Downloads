@@ -62,6 +62,7 @@ The software remembers your selected port. Windows names these ports COM1,
 COM2 and so on; your panel's number may differ from someone else's. If unsure,
 leave the apps disconnected, unplug only the panel's USB cable, choose
 **Refresh**, reconnect it and refresh again. Select the port that reappears.
+See the [USB port screen](#screen-reference-usb-port).
 
 Opening the app or saving settings does not move the cover or switch on its
 light. If calibration is needed, follow [Set Closed and Open positions](#set-closed-and-open-positions)
@@ -98,7 +99,7 @@ controls idle during exposures.
 
 ## Use the AstroTaca app
 
-Choose **Connect**, then use the **Controls** tab.
+Choose **Connect**, then use the **Controls** tab. See the [Controls screen](#screen-reference-controls).
 
 | Control | What it does |
 |---|---|
@@ -136,6 +137,7 @@ or linkage changes.
 
 Open **Calibration** in the AstroTaca app. You can also choose **Calibrate
 panel...** from the driver's settings gear in NINA; this opens the same guide.
+See the [Calibration screen](#screen-reference-calibration).
 
 1. Choose **Connect to panel** if shown. Stop any sequence and leave other
    controls and the physical button idle throughout the guide.
@@ -166,7 +168,7 @@ to reach. Never force the cover through nearby equipment to finish this guide.
 
 Use **Opening limit** when you want normal Open commands to stop sooner, for
 example to keep the cover clear of nearby equipment. Your full calibration
-stays saved separately.
+stays saved separately. See the [Opening limit screen](#screen-reference-opening-limit).
 
 ![Open stops at your shorter opening limit while the full Open position stays saved.](images/opening-limit.svg)
 
@@ -210,6 +212,7 @@ back toward Closed.
 **Dim is your starting brightness** whenever the light is Off, including after
 power is restored. Set Dim to the level you use most often. There is no separate
 default-brightness setting and no automatic light-on at startup.
+See the [Button settings screen](#screen-reference-button-settings).
 
 1. Connect the AstroTaca app, close the cover and wait for it to settle.
 2. Open **Button settings**. Adjust Dim, Medium and Bright, keeping each level
@@ -268,3 +271,70 @@ were doing. Include a screenshot if helpful. Remove names, file paths and other
 personal information from screenshots or logs before sharing them. Enable
 **Save troubleshooting logs** in the driver's settings only when needed for
 troubleshooting.
+
+## Screen reference: USB port
+
+This example opens from **Settings → USB port** in the AstroTaca app. Choose
+your panel's **USB port**, then **Save**. Use **Refresh** if you have just plugged
+it in. NINA's settings gear also lets you select the port; its layout may differ.
+
+![AstroTaca driver settings with USB port selection.](images/driver-settings.jpg)
+
+These are real windows from installed Windows software **3.2.2**. Readings and
+saved values in this reference are bench examples, not recommended settings or
+finished-product specifications. Your COM number may differ.
+
+Return to [Install and select the USB port](#install-and-select-the-usb-port).
+
+## Screen reference: Controls
+
+Close the cover and wait for **Closed**. Choose a brightness, then **Turn on /
+apply**. Moving the slider alone does not change the light. Use **Light off**
+when finished.
+
+![AstroTaca Controls tab with brightness slider and live status.](images/app-controls.jpg)
+
+**Halt / release** stops motion and releases holding force. Support a cover that
+could fall under gravity. Readings shown here are examples.
+
+Return to [Use the AstroTaca app](#use-the-astrotaca-app).
+
+## Screen reference: Calibration
+
+This guide teaches Closed and full Open. Opening the tab does not start
+calibration. Read the readiness instructions and support the cover before
+choosing **Start: light off / release**.
+
+![AstroTaca guided Calibration tab before starting.](images/app-calibration.jpg)
+
+You position the cover gently by hand and save the two positions. Follow the
+full procedure before starting; the example values are not targets to copy.
+
+Return to [Set Closed and Open positions](#set-closed-and-open-positions).
+
+## Screen reference: Opening limit
+
+Use this tab when normal **Open** commands should stop before full Open. Check
+that the cover will stay safely supported, then choose your opening angle.
+Saving a limit does not move the cover.
+
+![AstroTaca Opening limit tab with saved travel and shorter-opening controls.](images/app-opening-limit.jpg)
+
+**Restore full opening** removes the shorter limit. Check the full path is clear
+before the next Open command. The displayed angles are examples.
+
+Return to [Choose a shorter opening](#choose-a-shorter-opening).
+
+## Screen reference: Button settings
+
+Set **Dim** to your usual starting brightness, then choose higher Medium and
+Bright levels. **Save to panel** stores all three for use without a computer.
+It does not turn the light on.
+
+![AstroTaca Button settings tab with three saved brightness levels.](images/app-button-settings.jpg)
+
+Choose levels using your camera's flat exposures; these example values are not
+recommendations. A one-second press followed by release cycles the levels while
+the cover is Closed.
+
+Return to [Use the button](#use-the-button).
