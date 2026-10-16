@@ -2,6 +2,7 @@
 # Installers and firmware packages are distributed as reviewed release assets.
 *
 !.gitignore
+!.gitattributes
 !README.md
 !manual/
 !manual/README.md
